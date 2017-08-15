@@ -1,0 +1,19 @@
+{
+  "name": "tags_cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiayiLi/TagsCloud.git"
+  },
+  "author": "JiayiLi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiayiLi/TagsCloud/issues"
+  },
+  "homepage": "https://github.com/JiayiLi/TagsCloud#readme"
+}
