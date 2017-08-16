@@ -4,13 +4,13 @@
 
 ## 项目目录结构
 .
-|____build          工具类脚本
-|____dist			项目输出目录
-|____doc			API 使用文档
-|____package.json
-|____README.md
-|____src            项目源码
-| |____css
-| |____js
-|____test			测试
-|____vendor         第三方依赖
+|____build          工具类脚本 <br/>
+|____dist			项目输出目录 <br/>
+|____doc			API 使用文档 <br/>
+|____package.json <br/>
+|____README.md <br/>
+|____src            项目源码 <br/>
+| |____css <br/>
+| |____js <br/>
+|____test			测试 <br/>
+|____vendor         第三方依赖 <br/>
