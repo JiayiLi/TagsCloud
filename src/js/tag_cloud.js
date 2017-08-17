@@ -23,9 +23,26 @@
 		return this;
 	}
 
+	var DefaultOption = {
+
+	}
+
+	TagCloud.init = function(wrap,options){
+		console.log(wrap);
+		console.log(options);
+
+	}
 
 
+	// function TagCloud (options){
+	// 	console.log(options);
 
+
+	// }
+
+	// TagCloud.prototype.init = function(){
+
+	// }	
 
 
 

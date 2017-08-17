@@ -26,9 +26,20 @@
 	<script src="../src/js/tag_cloud.js"></script>
 
 	<script type="text/javascript">
-		var localBackbone = TagCloud.noConflict();
 
-		console.log(localBackbone);
+		console.log(TagCloud);
+		// $("#id").TagCloud({
+		// 	color:"#ccc",
+		// 	init:function(){
+		// 		console.log(1111);
+		// 	}
+		// });
+
+		TagCloud.init($("#basicTagCloud"),{
+			color : "#ccc"
+		})
+
+
   	</script>
 </body>
 </html>

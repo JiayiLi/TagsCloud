@@ -2,8 +2,8 @@
 > 标签云
 > Everyday, it gets a little easier.
 
-## 项目目录结构
-.
+### 项目目录结构
+. <br/>
 |____build          工具类脚本 <br/>
 |____dist			项目输出目录 <br/>
 |____doc			API 使用文档 <br/>
