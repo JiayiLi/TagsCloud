@@ -1,52 +1,50 @@
+//TagsCloud.js
 (function(factory){
 	var root = (typeof self === "object" && self.self === self && self) || (typeof global === "object" && global.global === global && global);
 
 	if(typeof define === "function" && define.amd){
-		define(['jquery','exports'],function($, exports){
-			root.TagCloud = factory(root, exports, $)
+		define(['jquery'],function($){
+			return factory(root, $)
 		});
 	}else if(typeof exports !== "undefined"){
 		var $ = require('jquery');
-		factory(root, exports, $);
+		module.exports = factory(root, $);
 	}else {
-		root.TagCloud = factory(root, {}, root.jQuery || root.$);
+		root.TagCloud = factory(root, root.jQuery || root.$);
 	}
 
-})(function(root, TagCloud, $){
+})(function(root , $){
 
-	var previousTagCloud = root.TagCloud;
-
-	TagCloud.VERSION = "1.0.0";
-
-	TagCloud.noConflict = function(){
-		root.TagCloud = previousTagCloud;
-		return this;
-	}
-
-	var DefaultOption = {
+	var DefaultOptions = {
+		color:[],
 
 	}
 
-	TagCloud.init = function(wrap,options){
-		console.log(wrap);
+
+	var TagsCloud = function(options){
+		console.log(this);
 		console.log(options);
-
+		var self = this;
 	}
 
+	$.extend(TagsCloud.prototype,{
+		VERSION : "1.0.0",
+		noConflict : function(){
 
-	// function TagCloud (options){
-	// 	console.log(options);
-
-
-	// }
-
-	// TagCloud.prototype.init = function(){
-
-	// }	
+		},
+		init : function(){
+			console.log("xix");
+		}
 
 
+	})
 
 
-	return TagCloud;
+
+
+	$.fn.TagsCloud = $.TagsCloud = TagsCloud ;
+	root.TagsCloud = TagsCloud.prototype;
+
+	return TagsCloud;
 
 })
