@@ -18,10 +18,10 @@
 
 
 ### some thinking
-1、`$("#id").TagsCloud(options)`   or  `TagsCloud($("#id"),options)`
-2、some functions : noConflict,version,增删改查,动画效果
-3、原型继承 or 对象关联
-4、数据格式： [{tag:"哈哈",weight:2},{tag:"xixi",weight:5}]  or {tag:["haha","xixi"],weight:[2,5]} or both
-5、maybe a problem: weight 过大、过小、离谱
+1. `$("#id").TagsCloud(options)`   or  `TagsCloud($("#id"),options)`
+2. some functions : noConflict,version,增删改查,动画效果
+3. 原型继承 or 对象关联
+4. 数据格式： [{tag:"哈哈",weight:2},{tag:"xixi",weight:5}]  or {tag:["haha","xixi"],weight:[2,5]} or both
+5. maybe a problem: weight 过大、过小、离谱
 
 
